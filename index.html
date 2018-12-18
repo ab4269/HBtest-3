@@ -1,1 +1,30 @@
-HB42
+<html>
+<script>
+  let nombre;
+var nombreH = Math.floor(Math.random() * 1000) + 1; 
+
+while(nombre !== nombreH){
+
+	nombre = prompt("Nombre :");
+
+	if (nombre < nombreH) {
+
+		alert(nombre +" est trop petit.");
+	}
+
+	else if (nombre > nombreH) {
+
+		alert(nombre +" est trop grand.");	
+	}
+
+	else if (nombre === nombreH){
+		alert("GG");
+		break;
+	}
+	else{
+		break;
+	}
+	
+}
+  </script>
+</html>
